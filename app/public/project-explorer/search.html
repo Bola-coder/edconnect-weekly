@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Explorer - search project</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+
+        <a class="navbar-brand" href="index.html">Project Explorer</a>
+
+        <form class="form-inline my-2 my-lg-0" name="prp">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search projects" value="" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+
+        <ul class="navbar-nav">
+
+            <li class="nav-item">
+                <a href="search.html" class="nav-link">Project</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="createProject.html" class="nav-link">Submit</a>
+            </li>
+
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+                <a href="register.html" class="nav-link">Sign Up</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="login.html" class="nav-link">Login</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <main>
+        <section class="searchForm container">
+            <h2>Project Gallery</h2>
+            <div class="container bg-light p-3">
+                <div class="form-row">
+
+                <div class="col-md-8">
+            <form action="" name="searchFrom" class="form-inline">
+                <input type="text" class ="form-control-lg form-control w-75" name="searchTerm" placeholder=
+                "Project Name, Authors, Abstract, Tags">
+            </div>
+            <div class="col-md-4">
+                <div class="form-row">
+                    <div class="col-md-8">
+                <div class ="form-group">
+                    <label for="" class="form-label"> Search By:</label>
+                    <select name="searchType" id="" class="form-control form-control-lg"> 
+                    <option value="Name">Name</option>
+                    <option value="Abstract">Abstract</option>
+                    <option value="Authors">Authors</option>
+                    <option value="Tags">Tags</option>
+                </select></div>
+            </div>
+                <div class="col-md-4">
+                <input type="submit" value="Search" class="btn btn-lg btn-primary">
+                </div>
+            </div>
+            </div>
+            </form>
+        </div>
+        </div>
+        </section>
+
+        <section class="searchResult">
+            <div class = "container">
+            <h2>Search Result <span class="text-muted">(1 result)</span></h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card my-3">
+                        <div class="card-body">
+                    <h3 class="card-title text-primary">Project Result</h3>
+                    <p class="card-subtitle text-muted">Authors: Bolarinwa, Mercy, Yinka</p>
+                    <p>Description: Lorem, ipsum dolor sit a
+                        itiis id ipsa magnam ratione quos quo atque pariatur quam soluta veniam aut 
+                        architecto, esse . </p>
+                        <a href="#" class="card-link">#CSS</a>
+                        <a href="#" class="card-link">#HTML</a>
+                        <a href="#" class="card-link">#Bootstrap</a>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </section>
+    </main>
+
+     <!-- footer section -->
+     <footer class="container mt-4 py-2 bg-light">
+        <p class="text-right"><span class="text-muted">
+            Project Explorer &copy; 2021
+        </span>
+        <b><span class="align-baseline"> .</span>Edconnect</b>  
+
+        </p>
+           
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Explorer - Register</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+
+        <a class="navbar-brand" href="index.html">Project Explorer</a>
+
+        <form class="form-inline my-2 my-lg-0" name="prp">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search projects" value="" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+
+        <ul class="navbar-nav">
+
+            <li class="nav-item">
+                <a href="search.html" class="nav-link">Project</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="createProject.html" class="nav-link">Submit</a>
+            </li>
+
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+                <a href="register.html" class="nav-link">Sign Up</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="login.html" class="nav-link">Login</a>
+            </li>
+
+        </ul>
+
+    </nav>
+    <main>
+        
+        <form action="" method="POST" class="mx-auto w-75 ">
+            <div class="container p-5 mt-5">
+            <h1>Signup</h1>
+            <div class="form-row">
+                <div class="col-md-6">
+                    <!-- First Name -->
+                    <div class="form-group"> 
+                        <label for="firstName">First Name:</label>
+                        <input type="text" name="firstName" class="form-control">
+                    </div> 
+
+                    <!-- Email -->
+                    <div class="form-group">
+                        <label for="email">Email Address: </label>
+                        <input type="email" name="email" class="form-control">
+                    </div> 
+
+                    <!-- Program -->
+                    <diV class="form-group">
+                        <label for="program">Program:</label>
+                        <select name="program" id="" class="form-control">
+                        <option value="computer_science">Computer Science</option>
+                        <option value="computer_information_systems">Computer Information Systems</option>
+                        <option value="computer_technology">Computer Technology</option>
+                    </select> 
+                    </diV> 
+                </div> <!-- Ending first column-->
+                
+                <div class="col-md-6">
+                    <!-- Last Name -->
+                    <div class="form-group ">
+                        <label for="lastName">Last Name:</label>
+                         <input type="text" name="lastName" class="form-control">
+                    </div>
+
+                    <!-- Password -->
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                         <input type="password" name="password" class="form-control">
+                    </div> 
+
+                    <!-- Spliting the last rown on the second colum into two -->
+                    <div class="row">
+                        <div class = "col-md-6">
+
+                            <!-- Matric Number -->
+                            <div class="form-group">
+                                <label for="matricNumber">Matric Number:</label>
+                                 <input type="text" name="matricNumber" class="form-control">
+                            </div> 
+                        </div>
+                            <div class="col-md-6" >
+                            <!-- Graduation Year -->
+                            <div class="form-group">
+                                <label for="graduationYear"> Gradduation Year:</label>
+                                <select name="graduationYear" id="" class="form-control">
+                                <option value="2013">2013</option>
+                                <option value="2014">2014</option>
+                                <option value="2015">2015</option>
+                                <option value="2016">2016</option>
+                                <option value="2017">2017</option>
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                            </select>
+                            </div> 
+
+                         </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button class = "btn btn-primary">Sign Up</button>
+        </div> 
+        </form>
+    </main>
+    
+    <!-- footer section -->
+    <footer class="container mt-4 py-2 bg-light">
+        <p class="text-right"><span class="text-muted">
+            Project Explorer &copy; 2021
+        </span>
+        <b><span class="align-baseline"> .</span>Edconnect</b>
+
+        </p>
+           
+    </footer>
+</body>
+</html>
